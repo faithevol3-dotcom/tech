@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Neural network"><rect width="400" height="260" fill="#E7E5F5"/>
+<g stroke="#16143A" stroke-opacity=".35" stroke-width="2"><path d="M70 60L200 40M70 60L200 130M70 60L200 220M70 130L200 40M70 130L200 130M70 130L200 220M70 200L200 40M70 200L200 130M70 200L200 220M200 40L330 90M200 130L330 90M200 220L330 90M200 40L330 180M200 130L330 180M200 220L330 180"/></g>
+<g fill="#16143A"><circle cx="70" cy="60" r="14"/><circle cx="70" cy="130" r="14"/><circle cx="70" cy="200" r="14"/></g>
+<g fill="#2EC4B6"><circle cx="200" cy="40" r="14"/><circle cx="200" cy="130" r="14"/><circle cx="200" cy="220" r="14"/></g>
+<g fill="#FF5A5F"><circle cx="330" cy="90" r="16"/><circle cx="330" cy="180" r="16"/></g></svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Abstract circuit board">
+<rect width="640" height="420" fill="#16143A"/>
+<g fill="none" stroke="#3B3880" stroke-width="3"><path d="M0 80h160l40 40h120"/><path d="M0 200h120l60 60h200l40-40h220"/><path d="M0 340h240l40-40h160l40 40h160"/><path d="M320 0v120"/><path d="M480 0v150l60 60h100"/><path d="M160 420v-80"/></g>
+<g fill="none" stroke="#2EC4B6" stroke-width="3"><path d="M200 120h120v80"/><path d="M380 260v60"/><path d="M440 300l40-40h160"/></g>
+<rect x="240" y="150" width="160" height="110" rx="14" fill="#231F5C" stroke="#FF5A5F" stroke-width="4"/>
+<g stroke="#FF5A5F" stroke-width="4" stroke-linecap="round"><path d="M270 150v-18M320 150v-18M370 150v-18M270 260v18M320 260v18M370 260v18M240 185h-18M240 225h-18M400 185h18M400 225h18"/></g>
+<text x="320" y="214" text-anchor="middle" font-family="monospace" font-size="34" font-weight="700" fill="#fff">CPU</text>
+<g fill="#2EC4B6"><circle cx="200" cy="120" r="7"/><circle cx="380" cy="320" r="7"/><circle cx="640" cy="260" r="7"/></g>
+<g fill="#FF5A5F"><circle cx="160" cy="80" r="6"/><circle cx="540" cy="210" r="6"/><circle cx="240" cy="340" r="6"/></g>
+</svg>

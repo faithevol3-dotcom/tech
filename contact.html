@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | TechPulse</title>
+<meta name="description" content="Send a question or topic suggestion to TechPulse.">
+<link rel="icon" href="images/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="index.html"><img src="images/logo.svg" alt="">TechPulse</a>
+  <nav aria-label="Main">
+    <a href="index.html">Home</a><a href="about.html">About</a><a href="contact.html" aria-current="page">Contact</a>
+  </nav>
+</div></header>
+<main>
+<section><div class="wrap split" style="align-items:start">
+  <div class="info">
+    <h1 style="font:800 2.6rem/1.1 var(--head);margin:0">Contact us</h1>
+    <p>Have a question, or a topic you want explained? Send a message and we will reply within a few days.</p>
+    <p><strong>Email:</strong> hello@example.com</p>
+    <p><strong>Location:</strong> Mukono, Uganda</p>
+    <img src="images/cloud.svg" alt="Cloud above three servers" width="400" height="260" style="border-radius:14px">
+  </div>
+  <form id="contact" novalidate>
+    <label>Your name<input id="name" name="name" type="text" autocomplete="name" required></label>
+    <label>Email address<input id="email" name="email" type="email" autocomplete="email" required></label>
+    <label>Topic
+      <select id="topic" name="topic"><option>Artificial intelligence</option><option>Cloud computing</option><option>Cybersecurity</option><option>Something else</option></select>
+    </label>
+    <label>Message<textarea id="msg" name="message" required></textarea></label>
+    <button class="btn" type="submit">Send message</button>
+    <p class="note" id="note" role="status"></p>
+  </form>
+</div></section>
+</main>
+<script>
+// Demo only: this form does not send data anywhere. Connect it to a form service when you publish.
+document.getElementById("contact").addEventListener("submit",function(e){
+  e.preventDefault();
+  var n=document.getElementById("note"),ok=this.name.value.trim()&&/\S+@\S+\.\S+/.test(this.email.value)&&this.message.value.trim();
+  n.className="note show";
+  n.textContent=ok?"Thanks, "+this.name.value.trim()+". Your message is ready to send once the form is connected.":"Please fill in your name, a valid email and a message.";
+  if(ok)this.reset();
+});
+</script>
+<footer class="site-footer"><div class="wrap">
+  <span>&copy; 2026 TechPulse. Learning about technology, one topic at a time.</span>
+  <span><a href="index.html">Home</a> &nbsp; <a href="about.html">About</a> &nbsp; <a href="contact.html">Contact</a></span>
+</div></footer>
+</body>
+</html>
